@@ -1,11 +1,11 @@
 from airflow import DAG
-from airflow.operators.python import PythonOperator
+from airflow.operators.python import PythonOperator  
 from datetime import datetime 
 
 ## Define our task 1
 def preprocess_data():
     print("Preprocessing data...")
-
+    ## Define our task 1 
 ## Define our task 2
 def train_model():
     print("Training model...")
